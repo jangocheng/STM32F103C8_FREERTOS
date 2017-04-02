@@ -5,10 +5,12 @@
  *      Author: admin
  */
 
-#ifndef USART1_H_
-#define USART1_H_
+#ifndef UART1_H_
+#define UART1_H_
 
 void MX_USART1_UART_Init(void);
+void vTaskUart1(void *pvParameters);
+
 
 /* Size of Trasmission buffer */
 #define TXBUFFERSIZE                      (COUNTOF(aTxBuffer) - 1)
@@ -19,4 +21,4 @@ void MX_USART1_UART_Init(void);
 #define COUNTOF(__BUFFER__)   (sizeof(__BUFFER__) / sizeof(*(__BUFFER__)))
 /* Exported functions ------------------------------------------------------- */
 
-#endif /* USART1_H_ */
+#endif /* UART1_H_ */

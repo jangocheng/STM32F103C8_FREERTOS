@@ -1,5 +1,5 @@
+#include <uart1.h>
 #include "stm32f1xx_hal.h"
-#include "usart1.h"
 #include "main.h"
 //#include "stm32f1xx_hal.h"
 
@@ -29,3 +29,4 @@ void MX_USART1_UART_Init(void)
   }
 
 }
+

@@ -1,3 +1,4 @@
+#include <uart1.h>
 #include "main.h"
 #include "stm32f1xx_hal.h"
 #include "FreeRTOS.h"
@@ -6,7 +7,6 @@
 
 #include "rtc.h"
 #include "rcc.h"
-#include "usart1.h"
 #include "gpio.h"
 
 #define main_TASK_PRIORITY				( tskIDLE_PRIORITY + 1 )
