@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/BAT/Desktop/STM32Cube/F103mini/F103mini/Inc
+HeaderPath=C:/Users/admin/Documents/workspace/F103mini/Inc
 HeaderFiles=stm32f1xx_it.h;stm32f1xx_hal_conf.h;main.h;
-SourcePath=C:/Users/BAT/Desktop/STM32Cube/F103mini/F103mini/Src
+SourcePath=C:/Users/admin/Documents/workspace/F103mini/Src
 SourceFiles=stm32f1xx_it.h;stm32f1xx_hal_conf.h;main.h;stm32f1xx_it.c;stm32f1xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]
